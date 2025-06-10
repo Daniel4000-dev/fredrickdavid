@@ -18,9 +18,9 @@ export function SocialIcon({ href, icon, label, className, variant = "default" }
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "flex items-center justify-center transition-all duration-300",
+        "flex items-center justify-center transition-all duration-900",
         variant === "default"
-          ? "bg-gray-200 w-10 h-10 rounded-sm hover:bg-gray-300"
+          ? "bg-white/10 w-10 h-10 rounded-sm hover:bg-black/10"
           : "w-12 h-12 bg-white/10 rounded-full backdrop-blur-sm",
         className,
       )}
