@@ -50,14 +50,8 @@ export function HeroSection({ className, variant = "desktop" }: HeroSectionProps
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
       >
-<Image 
-  src="/images/fredrick.jpeg" 
-  alt="Profile Picture" 
-  width={1000} 
-  height={1000} 
-  className="object-cover" 
-  priority 
-/>      </motion.div>
+        <img src="/images/fredrick.jpeg" alt="Profile" className="object-cover object-center w-full h-full" />
+      </motion.div>
     </div>
   )
 }
